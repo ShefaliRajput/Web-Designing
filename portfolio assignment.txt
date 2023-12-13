@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            padding: 50px;
+            background-color:brown
+        }
+
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        #login-link {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+
+        main {
+            padding: 10px;
+        }
+
+        footer {
+            background-color:hotpink;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="C:/Users/HP/Downloads/download.jpg" alt="Your Logo" id="logo">"
+        <a href="#" id="login-link"></a>
+        <input type="button" value="Login">
+    </header>
+
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Gift</a>
+        <a href="#">Order</a>
+        <a href="#">Pay</a>
+        <a href="#">Store</a>
+    </nav>
+    <main>
+        <div class="row" >
+        <div class="column">
+     <img src="C:/Users/HP/Downloads/starbucks.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
+     <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button> 
+        <img src="C:/Users/HP/Downloads/511CXWxT3cL._AC_.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
+        <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button> 
+        </div>
+        <div class="column">
+        <img src="C:/Users/HP/Downloads/New-Starbucks-Nestle-coffee-cold-brew-turmeric-essential-vitamins.jpg" alt="Your Image" style="max: width 100%; height: 50%;">
+        <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button> 
+        <img src="C:/Users/HP/Downloads/518C7zxr6hL.jpg" alt="Your Image" style="max: width 100%; height: auto;">
+        <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button> 
+        </div>
+        <div class="column">
+        <img src="C:/Users/HP/Downloads/cefc2490-5913-46ba-9e75-d24128684959.__CR0,0,2910,1800_PT0_SX970_V1___.jpg" alt="Your Image" style="max: width 100%; height: 500px;">
+        <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button>
+        <img src="C:/Users/HP/Downloads/WhatsApp Image 2023-11-22 at 2.35.55 AM (2).jpeg" alt="Your Image" style="max: width 100%; height: 550px;">
+        <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button>
+        </div>
+        <div class="column">
+        <img src="C:/Users/HP/Downloads/WhatsApp Image 2023-11-22 at 2.35.55 AM (1).jpeg" alt="Your Image" style="max: width 100%; height: 550px;">
+        <button class="add-to-cart-button" onclick="addToCart(₹ 367.50)">Add to Cart</button>
+        
+        </div>
+        </div>
+        <div class="boxpro">
+             <p style="text-align: center;"><b>SPARK MERY THIS HOLIDAY SEASON</b></p></div>
+        <marquee> Avail 20% Off On Select Starbucks Essentials! </marquee>
+        <p style="text-align: center;"> <b>Wander Down The Winter Land With Your Favourite Chrishmas Beverages!</b></p>
+        <marquee behaviour="up" direction="margin-right"></marquee>
+        </div> 
+
+    </main>
+
+    <footer>
+        &copy; STARBUCKS
+    </footer>
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: brown;
+            
+        }
+
+        header {
+            background-color:#333;
+            color:#fff
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .coffee-item {
+            margin: 10px;
+            text-align: center;
+            position: relative;
+        }
+    
+
+        .coffee-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+        }
+
+    
+
+        .coffee-price {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .add-to-cart-button {
+            transform: translateX(-50%);
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            align-items:center;
+            display:flex;
+            flex-direction: column;
+
+        }
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>"To Inspire And Nurture The Human Spirit One Person, One Cup, And One Neighborhood At a Time"</h1>
+    </header>
+
+    <main>
+            <div class="gallery">
+                <p><b>Caffe Americano</b></p>
+                <div class="Caffe Americano"></div>
+                <img src="C:/Users/HP/Downloads/Caffe Americano.webp" alt="Caffe Americano" class="coffee-image"  style="width: 100% ; height: auto;"> 
+                <p>SHORT(237 Ml) .0 kcal
+     Brewed Coffee BREWED COFFEE Rich in flavour,
+      full-bodied espresso with hot water in true European style.</p>              
+                <button class="add-to-cart-button" onclick="addToCart('Caffe Americano',₹ 262.50)">Add to Cart</button>
+                <p class="coffee-price">₹ 262.50</p>
+            </div>
+            <div class="gallery">
+                <p><b>Double Chocolate Chip Frappuccino</b></p>
+                <img src="C:/Users/HP/Downloads/103515.webp" alt="Double Chocolate Chip Frappuccino" class="coffee-image">
+                <p> TALL(354 ML) .415 kcal
+                    Wheat WHEAT
+                    Milk MILK
+                    Soy SOY
+                    Rich mocha-flavored sauce meets up with chocolaty chips, milk and ice. Top it off with sweetened whipped cream and mocha drizzle for a real party in your mouth.</p>
+                <p class="coffee-price">₹ 399.00</p>
+                <button class="add-to-cart-button" onclick="addToCart('Double Chocolate Chip Frappuccino',₹ 399.00 )">Add to Cart</button>
+                <div class="gallery">
+                    <p><b>Cappuccino</b></p>
+                    <img src="C:/Users/HP/Downloads/100419 (1).webp" alt="Cappuccino" class="coffee-image">
+                    <p>SHORT(237 ML) .104 Kcal
+                        Milk MILK
+                        Dark, Rich in flavour espresso lies in wait under a smoothed and stretched layer of thick foam. It's truly the height of our baristas' craft.</p>
+                        <p class="coffee-price">₹ 283.50</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Cappuccino',₹ 283.50 )">Add to Cart</button>       
+                        <div class="gallery">
+                            <p><b>Java Chip Frappuccino</b></p>
+                            <img src="C:/Users/HP/Downloads/100501.webp" alt="Java Chip Frappuccino" class="coffee-image">
+                            <p>TALL(354 ML) .392 kcal
+                                Soy SOY
+                                Milk MILK
+                                Wheat WHEAT
+                                We blend mocha sauce and Frappuccino® chips with Frappuccino® roast coffee and milk and ice, then top with whipped cream and mocha drizzle to bring you endless java joy.</p>
+                            <p class="coffee-price">₹ 367.50</p>
+                                <button class="add-to-cart-button" onclick="addToCart('Java Chip Frappuccino',₹ 367.50 )">Add to Cart</button>       
+                    <div class="gallery">
+                    <p><b>Almond Butterscotch Cookie</b></p>
+                    <img src="C:/Users/HP/Downloads/101922.webp" alt="Almond Butterscotch Cookie" class="coffee-image">
+                    <p>PER SERVE (85 g) - 370kcal
+                        Wheat WHEAT
+                        Milk MILK
+                        Nuts NUTS
+                        A buttery cookie with a combination of crunchy almond and butterscotch.</p>
+                    <p class="coffee-price">₹ 309.75</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Almond Butterscotch Cookie',₹ 309.75)">Add to Cart</button>       
+<h2><b>Barista Recommends</b></h2>
+<div class="gallery">
+    <p><b>Strawberry Milkshake</b></p>
+    <img src="C:/Users/HP/Downloads/112570.webp" alt="Strawberry Milkshake" class="coffee-image">
+    <p>TALL(Tall Strawberry Milkshake) .PER SERVE (354ml) - 569 Kcal
+        Milk MILK
+        A Delicious milkshake for those with a sweet tooth and love our favourite berry, Strawberry.</p>
+        <p class="coffee-price">₹ 367.50</p>
+        <button class="add-to-cart-button" onclick="addToCart('Strawberry Milkshake',₹ 367.50)">Add to Cart</button>       
+</div>    
+            
+            
+            
+            
+                    </div>
+            </div>
+            <!-- Add more coffee items as needed -->
+        </div>
+        
+    </main>
+
+    </main>
+
+ 
+
+</body>
+</html>
